@@ -1,0 +1,8 @@
+n = input('Qual o seu nome? ').strip()
+n1 = (n.upper())
+n2 = (n.lower())
+n3 = (len(n) - n.count(' '))
+n4 = (n.find(' '))
+print('Analisando seu nome...')
+print('Seu nome em maiúsculas é {}, seu nome em minúsculas é {},'.format(n1, n2), end = ' ')
+print('seu nome tem {} letras e seu primeiro nome tem {} letras.'. format(n3, n4))
