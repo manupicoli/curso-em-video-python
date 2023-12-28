@@ -3,7 +3,7 @@
 #Já nos dicionários, é possível que os indices sejam palavras, indices literais, personalizados
 dados = {'nome': 'Pedro', 'idade': 25}
 print(dados['nome'])
-#Para adicionar um novo elkemento, não é necessário usar APPEND:
+#Para adicionar um novo elemento, não é necessário usar APPEND:
 dados['sexo'] = 'M'
 print(dados)
 #Para remover um elemento:
